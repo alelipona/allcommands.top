@@ -1,7 +1,3 @@
-Certainly! Below is a sample `README.md` file for the "allcommands.top" open-source project on GitHub. Feel free to customize it further based on your project's specifics:
-
----
-
 # Welcome to AllCommands.top
 
 ## About
