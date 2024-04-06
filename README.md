@@ -43,7 +43,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ## Contact
 
-Feel free to reach out to us via email or open an issue on GitHub if you have any questions or suggestions.
+Feel free to reach out to us via open an issue on GitHub if you have any questions or suggestions.
 
 Happy command-lining! 🚀
 
