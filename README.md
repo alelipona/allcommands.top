@@ -21,6 +21,7 @@
    ```
    cd allcommands.top
    # Run any necessary setup commands here
+   yarn dev
    ```
 
 3. **Contribute**:
