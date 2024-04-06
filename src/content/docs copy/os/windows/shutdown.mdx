@@ -1,0 +1,172 @@
+---
+title: Shutdown CMD Windows
+description: Learn how to use the shutdown command in CMD for Windows, including syntax, options, and examples.
+---
+
+The `shutdown` command in CMD is a powerful Windows tool used to turn off or restart a local or remote computer. It can also be used to log off the current user or end a session on a Remote Desktop server. This command is particularly useful for system administrators who need to manage multiple computers or schedule shutdowns and restarts. The `shutdown` command offers various switches to specify the action to be performed, such as shutting down, restarting, or logging off. Additionally, it allows setting a timer for the action to occur after a specified period or at a particular time. It's important to use this command with caution, as unsaved data may be lost when a computer is shut down or restarted.
+
+## Shutdown Syntax:
+```cmd
+shutdown [/i | /l | /s | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/f] [/m \\computer][/t xxx] [/d [p|u:]xx:yy [/c "comment"]]
+```
+
+## Options:
+| Option | Description |
+| --- | --- |
+| /i | Display the graphical user interface (GUI). |
+| /l | Log off the current user. |
+| /s | Shutdown the computer. |
+| /r | Restart the computer. |
+| /g | Restart the computer and restart any registered applications. |
+| /a | Abort a system shutdown. |
+| /p | Turn off the local computer with no time-out or warning. |
+| /h | Hibernate the local computer. |
+| /e | Document the reason for an unexpected shutdown of a computer. |
+| /o | Go to the advanced boot options menu and restart the computer. |
+| /hybrid | Performs a shutdown of the computer and prepares it for fast startup. |
+| /f | Force running applications to close. |
+| /m | Specify the target computer. |
+| /t | Set the time-out period before shutdown. |
+| /d | Provide the reason for the restart or shutdown. |
+| /c | Comment on the reason for the restart or shutdown. |
+
+## Parameters:
+| Parameter | Description |
+| --- | --- |
+| \\computer | The target computer to shut down or restart. |
+| xxx | The time-out period in seconds. |
+| p|u:xx:yy | The reason code for the shutdown. |
+| "comment" | The comment to describe the reason for the shutdown or restart. |
+
+:::caution
+Always save your work before using the `shutdown` command to prevent data loss. Use the `/f` option with care, as it will close all running applications without warning.
+:::
+
+## Examples:
+### Immediate Shutdown
+```cmd
+shutdown /s /f
+```
+This command immediately shuts down the computer and forces all running applications to close.
+
+### Restart with Delay
+```cmd
+shutdown /r /t 300
+```
+This command restarts the computer after a 5-minute delay.
+
+### Remote Shutdown
+```cmd
+shutdown /m \\workstation /s /f
+```
+This command shuts down a remote computer named workstation.
+
+### Cancel a Scheduled Shutdown
+```cmd
+shutdown /a
+```
+This command aborts a previously scheduled shutdown.
+
+### Hibernate Computer
+```cmd
+shutdown /h
+```
+This command puts the computer into hibernation mode.
+
+### Log Off User
+```cmd
+shutdown /l
+```
+This command logs off the current user.
+
+### Hybrid Shutdown
+```cmd
+shutdown /s /hybrid /f
+```
+This command performs a hybrid shutdown, preparing the system for fast startup.
+
+### Document Unexpected Shutdown
+```cmd
+shutdown /e
+```
+This command documents the reason for an unexpected shutdown.
+
+### Advanced Boot Options
+```cmd
+shutdown /o /r
+```
+This command restarts the computer to the advanced boot options menu.
+
+:::tip
+For scheduled shutdowns or restarts, use the `/t` option to specify the delay in seconds. This gives you or other users time to save work.
+:::
+
+## Shutdown FAQ:
+### How do I schedule a shutdown in CMD?
+To schedule a shutdown in CMD, execute the following command:
+```cmd
+shutdown /s /t 3600
+```
+This command schedules the computer to shut down in 1 hour (3600 seconds).
+
+### How can I cancel a scheduled shutdown?
+To cancel a scheduled shutdown, use the following command:
+```cmd
+shutdown /a
+```
+This command cancels any scheduled shutdowns or restarts.
+
+### What is the difference between shutdown and restart options?
+The shutdown option turns off the computer, while the restart option reboots it. Use the following command to restart:
+```cmd
+shutdown /r
+```
+
+### Can I shut down a remote computer with CMD?
+Yes, to shut down a remote computer, use the following command:
+```cmd
+shutdown /m \\remotePC /s
+```
+Replace `\\remotePC` with the name of the remote computer.
+
+### How do I use the hybrid shutdown option?
+The hybrid shutdown option enables faster startup. Execute the following command:
+```cmd
+shutdown /s /hybrid
+```
+This command performs a shutdown and prepares the computer for fast startup.
+
+### How do I perform an immediate shutdown in CMD?
+To perform an immediate shutdown, execute the following command:
+```cmd
+shutdown /s /f /t 0
+```
+This command will shut down the computer immediately and forcefully close all applications.
+
+### How can I hibernate my computer using CMD?
+To hibernate your computer, use the following command:
+```cmd
+shutdown /h
+```
+This command will put your computer into hibernation mode.
+
+### Is there a way to log off the current user using CMD?
+Yes, to log off the current user, use the following command:
+```cmd
+shutdown /l
+```
+This command will log off the current user.
+
+### Can I cancel a shutdown that I've already scheduled?
+To cancel a scheduled shutdown, use the following command:
+```cmd
+shutdown /a
+```
+This command will abort any scheduled shutdowns or restarts.
+
+### How do I restart my computer into the advanced boot options menu?
+To restart your computer into the advanced boot options menu, use the following command:
+```cmd
+shutdown /r /o
+```
+This command will restart your computer and bring up the advanced boot options menu.

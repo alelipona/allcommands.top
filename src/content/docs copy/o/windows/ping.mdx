@@ -1,0 +1,111 @@
+---
+title: Ping CMD Windows
+description: Discover the Ping command functionalities in Windows command line interface with examples, options, parameters, and FAQs.
+---
+
+Ping is a utility used to test the reachability of a host on an Internet Protocol (IP) network. It sends ICMP Echo Request messages to the target host and waits for an ICMP Echo Reply.
+
+## Ping Syntax:
+```cmd
+ping [destination]
+```
+
+## Options:
+| Option       | Description                        |
+|--------------|------------------------------------|
+| -t           | Ping the specified host until stopped. To stop, press Ctrl + C. |
+| -a           | Resolve addresses to hostnames.    |
+| -n count     | Number of echo requests to send.   |
+
+## Parameters:
+| Parameter    | Description                        |
+|--------------|------------------------------------|
+| destination  | Specifies the host to ping.        |
+
+:::caution
+Use the Ping command responsibly to avoid network congestion and potential security risks.
+:::
+
+## Examples:
+### Basic Ping Test
+```console
+ping www.example.com
+```
+
+### Continuous Ping
+```console
+ping -t www.example.com
+```
+
+### Resolve Hostnames
+```console
+ping -a 192.168.1.1
+```
+
+### Specify Number of Requests
+```console
+ping -n 5 www.example.com
+```
+
+### Timeout Example
+```console
+ping -w 2000 www.example.com
+```
+
+### Packet Size Example
+```console
+ping -l 1000 www.example.com
+```
+
+### IPv6 Ping
+```console
+ping -6 ipv6.google.com
+```
+
+### TTL Field Example
+```console
+ping -i 2 192.168.1.1
+```
+
+### Source Address Example
+```console
+ping -S 192.168.1.2 www.example.com
+```
+
+:::tip
+Remember, Ping is a versatile tool for network troubleshooting and diagnostics.
+:::
+
+## Ping FAQ:
+### What is the basic syntax for using the Ping command?
+```cmd
+ping [destination]
+```
+
+### How can I stop a continuous ping operation?
+Press Ctrl + C to stop a continuous ping operation.
+
+### How do I resolve IP addresses to hostnames using Ping?
+```cmd
+ping -a 192.168.1.1
+```
+
+### Can I ping an IPv6 address with Ping?
+Yes, you can ping an IPv6 address using the `-6` option.
+
+### What is the purpose of the `-n` option in the Ping command?
+The `-n` option allows you to specify the number of echo requests to send.
+### How can I set a timeout value for Ping requests?
+```cmd
+ping -w 2000 www.example.com
+```
+
+### How can I adjust the packet size in Ping requests?
+```cmd
+ping -l 1000 www.example.com
+```
+
+### How can I set the Time to Live (TTL) field in a Ping request?
+```cmd
+ping -i 2 192.168.1.1
+```
