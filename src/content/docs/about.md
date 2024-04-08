@@ -1,6 +1,6 @@
 ---
-title: AllCommands.top - Your Ultimate Guide to Command-Line Commands
-description: Explore a comprehensive collection of command-line commands for various operating systems, gaming consoles, and other CLI interfaces. CommandoHub provides detailed descriptions, usage examples, and tips to enhance your command-line skills. Start your journey now!
+title: AllCommands.top - Your Ultimate Guide to CLI Commands
+description: Explore a comprehensive collection of command-line commands for various operating systems, gaming consoles, and other CLI interfaces. 
 ---
 
 AllCommands.top is an online resource where you can find information about **command-line commands** for various operating systems, gaming consoles, and other command-line interfaces (CLIs). Our goal is to help you navigate the world of the command line and harness its power effectively in your projects.
@@ -20,7 +20,7 @@ AllCommands.top provides information about commands for the following operating 
 - **Amazon Web Services**: AWS Command Prompt (Coming soon)
 - **Microsoft Azure**: Azure CLI(Coming soon)
 
-## What You'll Find on CommandoHub
+## What You'll Find on AllCommands.top
 
 - **Command Pages**: Each command has its own page with descriptions, usage examples, and other useful information.
 - **Search**: Quickly find the command you need using our search feature.
