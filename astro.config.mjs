@@ -2653,6 +2653,886 @@ export default defineConfig({
                     {
                         label: 'ftp',
                         link: '/os/macos/ftp/'
+                    },
+                    {
+                        label: 'function',
+                        link: '/os/macos/function/'
+                    },
+                    {
+                        label: 'fuser',
+                        link: '/os/macos/fuser/'
+                    },
+                    {
+                        label: 'GetFileInfo',
+                        link: '/os/macos/getfileinfo/'
+                    },
+                    {
+                        label: 'getopt',
+                        link: '/os/macos/getopt/'
+                    },
+                    {
+                        label: 'getopts',
+                        link: '/os/macos/getopts/'
+                    },
+                    {
+                        label: 'goto',
+                        link: '/os/macos/goto/'
+                    },
+                    {
+                        label: 'grep',
+                        link: '/os/macos/grep/'
+                    },
+                    {
+                        label: 'groups',
+                        link: '/os/macos/groups/'
+                    },
+                    {
+                        label: 'gzip',
+                        link: '/os/macos/gzip/'
+                    },
+                    {
+                        label: 'halt',
+                        link: '/os/macos/halt/'
+                    },
+                    {
+                        label: 'hash',
+                        link: '/os/macos/hash/'
+                    },
+                    {
+                        label: 'head',
+                        link: '/os/macos/head/'
+                    },
+                    {
+                        label: 'hdiutil',
+                        link: '/os/macos/hdiutil/'
+                    },
+                    {
+                        label: 'history',
+                        link: '/os/macos/history/'
+                    },
+                    {
+                        label: 'hostname',
+                        link: '/os/macos/hostname/'
+                    },
+                    {
+                        label: 'iconv',
+                        link: '/os/macos/iconv/'
+                    },
+                    {
+                        label: 'id',
+                        link: '/os/macos/id/'
+                    },
+                    {
+                        label: 'if',
+                        link: '/os/macos/if/'
+                    },
+                    {
+                        label: 'ifconfig',
+                        link: '/os/macos/ifconfig/'
+                    },
+                    {
+                        label: 'iostat',
+                        link: '/os/macos/iostat/'
+                    },
+                    {
+                        label: 'ipconfig',
+                        link: '/os/macos/ipconfig/'
+                    },
+                    {
+                        label: 'info',
+                        link: '/os/macos/info/'
+                    },
+                    {
+                        label: 'install',
+                        link: '/os/macos/install/'
+                    },
+                    {
+                        label: 'installer',
+                        link: '/os/macos/installer/'
+                    },
+                    {
+                        label: 'iosnoop',
+                        link: '/os/macos/iosnoop/'
+                    },
+                    {
+                        label: 'jobs',
+                        link: '/os/macos/jobs/'
+                    },
+                    {
+                        label: 'join',
+                        link: '/os/macos/join/'
+                    },
+                    {
+                        label: 'kextfind',
+                        link: '/os/macos/kextfind/'
+                    },
+                    {
+                        label: 'kextstat',
+                        link: '/os/macos/kextstat/'
+                    },
+                    {
+                        label: 'kextunload',
+                        link: '/os/macos/kextunload/'
+                    },
+                    {
+                        label: 'keytool',
+                        link: '/os/macos/keytool/'
+                    },
+                    {
+                        label: 'kickstart',
+                        link: '/os/macos/kickstart/'
+                    },
+                    {
+                        label: 'kill',
+                        link: '/os/macos/kill/'
+                    },
+                    {
+                        label: 'killall',
+                        link: '/os/macos/killall/'
+                    },
+                    {
+                        label: 'klist',
+                        link: '/os/macos/klist/'
+                    },
+                    {
+                        label: 'l',
+                        link: '/os/macos/l/'
+                    },
+                    {
+                        label: 'last',
+                        link: '/os/macos/last/'
+                    },
+                    {
+                        label: 'launchctl',
+                        link: '/os/macos/launchctl/'
+                    },
+                    {
+                        label: 'll',
+                        link: '/os/macos/ll/'
+                    },
+                    {
+                        label: 'leave',
+                        link: '/os/macos/leave/'
+                    },
+                    {
+                        label: 'less',
+                        link: '/os/macos/less/'
+                    },
+                    {
+                        label: 'let',
+                        link: '/os/macos/let/'
+                    },
+                    {
+                        label: 'lipo',
+                        link: '/os/macos/lipo/'
+                    },
+                    {
+                        label: 'ln',
+                        link: '/os/macos/ln/'
+                    },
+                    {
+                        label: 'local',
+                        link: '/os/macos/local/'
+                    },
+                    {
+                        label: 'locate',
+                        link: '/os/macos/locate/'
+                    },
+                    {
+                        label: 'logname',
+                        link: '/os/macos/logname/'
+                    },
+                    {
+                        label: 'login',
+                        link: '/os/macos/login/'
+                    },
+                    {
+                        label: 'logout',
+                        link: '/os/macos/logout/'
+                    },
+                    {
+                        label: 'look',
+                        link: '/os/macos/look/'
+                    },
+                    {
+                        label: 'lp',
+                        link: '/os/macos/lp/'
+                    },
+                    {
+                        label: 'lpr',
+                        link: '/os/macos/lpr/'
+                    },
+                    {
+                        label: 'lprm',
+                        link: '/os/macos/lprm/'
+                    },
+                    {
+                        label: 'lpstat',
+                        link: '/os/macos/lpstat/'
+                    },
+                    {
+                        label: 'ls',
+                        link: '/os/macos/ls/'
+                    },
+                    {
+                        label: 'lsregister',
+                        link: '/os/macos/lsregister/'
+                    },
+                    {
+                        label: 'lsbom',
+                        link: '/os/macos/lsbom/'
+                    },
+                    {
+                        label: 'lsof',
+                        link: '/os/macos/lsof/'
+                    },
+                    {
+                        label: 'man',
+                        link: '/os/macos/man/'
+                    },
+                    {
+                        label: 'md5',
+                        link: '/os/macos/md5/'
+                    },
+                    {
+                        label: 'mdfind',
+                        link: '/os/macos/mdfind/'
+                    },
+                    {
+                        label: 'mdimport',
+                        link: '/os/macos/mdimport/'
+                    },
+                    {
+                        label: 'mdls',
+                        link: '/os/macos/mdls/'
+                    },
+                    {
+                        label: 'mdutil',
+                        link: '/os/macos/mdutil/'
+                    },
+                    {
+                        label: 'mkdir',
+                        link: '/os/macos/mkdir/'
+                    },
+                    {
+                        label: 'mkfifo',
+                        link: '/os/macos/mkfifo/'
+                    },
+                    {
+                        label: 'mkfile',
+                        link: '/os/macos/mkfile/'
+                    },
+                    {
+                        label: 'mktemp',
+                        link: '/os/macos/mktemp/'
+                    },
+                    {
+                        label: 'more',
+                        link: '/os/macos/more/'
+                    },
+                    {
+                        label: 'mount',
+                        link: '/os/macos/mount/'
+                    },
+                    {
+                        label: 'msgs',
+                        link: '/os/macos/msgs/'
+                    },
+                    {
+                        label: 'mtree',
+                        link: '/os/macos/mtree/'
+                    },
+                    {
+                        label: 'mv',
+                        link: '/os/macos/mv/'
+                    },
+                    {
+                        label: 'nano',
+                        link: '/os/macos/nano/'
+                    },
+                    {
+                        label: 'netcat',
+                        link: '/os/macos/netcat/'
+                    },
+                    {
+                        label: 'net',
+                        link: '/os/macos/net/'
+                    },
+                    {
+                        label: 'netstat',
+                        link: '/os/macos/netstat/'
+                    },
+                    {
+                        label: 'networkQuality',
+                        link: '/os/macos/networkquality/'
+                    },
+                    {
+                        label: 'networksetup',
+                        link: '/os/macos/networksetup/'
+                    },
+                    {
+                        label: 'nice',
+                        link: '/os/macos/nice/'
+                    },
+                    {
+                        label: 'nl',
+                        link: '/os/macos/nl/'
+                    },
+                    {
+                        label: 'nohup',
+                        link: '/os/macos/nohup/'
+                    },
+                    {
+                        label: 'ntfs.util',
+                        link: '/os/macos/ntfs.util/'
+                    },
+                    {
+                        label: 'nvram',
+                        link: '/os/macos/nvram/'
+                    },
+                    {
+                        label: 'onintr',
+                        link: '/os/macos/onintr/'
+                    },
+                    {
+                        label: 'open',
+                        link: '/os/macos/open/'
+                    },
+                    {
+                        label: 'opensnoop',
+                        link: '/os/macos/opensnoop/'
+                    },
+                    {
+                        label: 'openssl',
+                        link: '/os/macos/openssl/'
+                    },
+                    {
+                        label: 'osacompile',
+                        link: '/os/macos/osacompile/'
+                    },
+                    {
+                        label: 'osascript',
+                        link: '/os/macos/osascript/'
+                    },
+                    {
+                        label: 'passwd',
+                        link: '/os/macos/passwd/'
+                    },
+                    {
+                        label: 'paste',
+                        link: '/os/macos/paste/'
+                    },
+                    {
+                        label: 'pbcopy',
+                        link: '/os/macos/pbcopy/'
+                    },
+                    {
+                        label: 'pbpaste',
+                        link: '/os/macos/pbpaste/'
+                    },
+                    {
+                        label: 'pbs',
+                        link: '/os/macos/pbs/'
+                    },
+                    {
+                        label: 'pdisk',
+                        link: '/os/macos/pdisk/'
+                    },
+                    {
+                        label: 'pgrep',
+                        link: '/os/macos/pgrep/'
+                    },
+                    {
+                        label: 'ping',
+                        link: '/os/macos/ping/'
+                    },
+                    {
+                        label: 'pkill',
+                        link: '/os/macos/pkill/'
+                    },
+                    {
+                        label: 'pkgbuild',
+                        link: '/os/macos/pkgbuild/'
+                    },
+                    {
+                        label: 'pkgutil',
+                        link: '/os/macos/pkgutil/'
+                    },
+                    {
+                        label: 'plutil',
+                        link: '/os/macos/plutil/'
+                    },
+                    {
+                        label: 'pmset',
+                        link: '/os/macos/pmset/'
+                    },
+                    {
+                        label: 'popd',
+                        link: '/os/macos/popd/'
+                    },
+                    {
+                        label: 'pr',
+                        link: '/os/macos/pr/'
+                    },
+                    {
+                        label: 'printenv',
+                        link: '/os/macos/printenv/'
+                    },
+                    {
+                        label: 'printf',
+                        link: '/os/macos/printf/'
+                    },
+                    {
+                        label: 'profiles',
+                        link: '/os/macos/profiles/'
+                    },
+                    {
+                        label: 'ps',
+                        link: '/os/macos/ps/'
+                    },
+                    {
+                        label: 'purge',
+                        link: '/os/macos/purge/'
+                    },
+                    {
+                        label: 'pushd',
+                        link: '/os/macos/pushd/'
+                    },
+                    {
+                        label: 'pwd',
+                        link: '/os/macos/pwd/'
+                    },
+                    {
+                        label: 'qlmanage',
+                        link: '/os/macos/qlmanage/'
+                    },
+                    {
+                        label: 'quota',
+                        link: '/os/macos/quota/'
+                    },
+                    {
+                        label: 'rcp',
+                        link: '/os/macos/rcp/'
+                    },
+                    {
+                        label: 'read',
+                        link: '/os/macos/read/'
+                    },
+                    {
+                        label: 'readonly',
+                        link: '/os/macos/readonly/'
+                    },
+                    {
+                        label: 'reboot',
+                        link: '/os/macos/reboot/'
+                    },
+                    {
+                        label: 'ReportCrash',
+                        link: '/os/macos/reportcrash/'
+                    },
+                    {
+                        label: 'return',
+                        link: '/os/macos/return/'
+                    },
+                    {
+                        label: 'rev',
+                        link: '/os/macos/rev/'
+                    },
+                    {
+                        label: 'rm',
+                        link: '/os/macos/rm/'
+                    },
+                    {
+                        label: 'rmdir',
+                        link: '/os/macos/rmdir/'
+                    },
+                    {
+                        label: 'rsync',
+                        link: '/os/macos/rsync/'
+                    },
+                    {
+                        label: 'say',
+                        link: '/os/macos/say/'
+                    },
+                    {
+                        label: 'screen',
+                        link: '/os/macos/screen/'
+                    },
+                    {
+                        label: 'screencapture',
+                        link: '/os/macos/screencapture/'
+                    },
+                    {
+                        label: 'scselect',
+                        link: '/os/macos/scselect/'
+                    },
+                    {
+                        label: 'scutil',
+                        link: '/os/macos/scutil/'
+                    },
+                    {
+                        label: 'sdiff',
+                        link: '/os/macos/sdiff/'
+                    },
+                    {
+                        label: 'security',
+                        link: '/os/macos/security/'
+                    },
+                    {
+                        label: 'sed',
+                        link: '/os/macos/sed/'
+                    },
+                    {
+                        label: 'select',
+                        link: '/os/macos/select/'
+                    },
+                    {
+                        label: 'seq',
+                        link: '/os/macos/seq/'
+                    },
+                    {
+                        label: 'serverinfo',
+                        link: '/os/macos/serverinfo/'
+                    },
+                    {
+                        label: 'set',
+                        link: '/os/macos/set/'
+                    },
+                    {
+                        label: 'setfile',
+                        link: '/os/macos/setfile/'
+                    },
+                    {
+                        label: 'sharing',
+                        link: '/os/macos/sharing/'
+                    },
+                    {
+                        label: 'shasum',
+                        link: '/os/macos/shasum/'
+                    },
+                    {
+                        label: 'shift',
+                        link: '/os/macos/shift/'
+                    },
+                    {
+                        label: 'shopt',
+                        link: '/os/macos/shopt/'
+                    },
+                    {
+                        label: 'shortcuts',
+                        link: '/os/macos/shortcuts/'
+                    },
+                    {
+                        label: 'shutdown',
+                        link: '/os/macos/shutdown/'
+                    },
+                    {
+                        label: 'sips',
+                        link: '/os/macos/sips/'
+                    },
+                    {
+                        label: 'sleep',
+                        link: '/os/macos/sleep/'
+                    },
+                    {
+                        label: 'softwareupdate',
+                        link: '/os/macos/softwareupdate/'
+                    },
+                    {
+                        label: 'sort',
+                        link: '/os/macos/sort/'
+                    },
+                    {
+                        label: 'source',
+                        link: '/os/macos/source/'
+                    },
+                    {
+                        label: 'spctl',
+                        link: '/os/macos/spctl/'
+                    },
+                    {
+                        label: 'split',
+                        link: '/os/macos/split/'
+                    },
+                    {
+                        label: 'sqlite3',
+                        link: '/os/macos/sqlite3/'
+                    },
+                    {
+                        label: 'srm',
+                        link: '/os/macos/srm/'
+                    },
+                    {
+                        label: 'stat',
+                        link: '/os/macos/stat/'
+                    },
+                    {
+                        label: 'stop',
+                        link: '/os/macos/stop/'
+                    },
+                    {
+                        label: 'su',
+                        link: '/os/macos/su/'
+                    },
+                    {
+                        label: 'sudo',
+                        link: '/os/macos/sudo/'
+                    },
+                    {
+                        label: 'sum',
+                        link: '/os/macos/sum/'
+                    },
+                    {
+                        label: 'suspend',
+                        link: '/os/macos/suspend/'
+                    },
+                    {
+                        label: 'sw_vers',
+                        link: '/os/macos/sw_vers/'
+                    },
+                    {
+                        label: 'sysctl',
+                        link: '/os/macos/sysctl/'
+                    },
+                    {
+                        label: 'system_profiler',
+                        link: '/os/macos/system_profiler/'
+                    },
+                    {
+                        label: 'systemsetup',
+                        link: '/os/macos/systemsetup/'
+                    },
+                    {
+                        label: 'tabs',
+                        link: '/os/macos/tabs/'
+                    },
+                    {
+                        label: 'tab2space',
+                        link: '/os/macos/tab2space/'
+                    },
+                    {
+                        label: 'tail',
+                        link: '/os/macos/tail/'
+                    },
+                    {
+                        label: 'tar',
+                        link: '/os/macos/tar/'
+                    },
+                    {
+                        label: 'taskpolicy',
+                        link: '/os/macos/taskpolicy/'
+                    },
+                    {
+                        label: 'tccutil',
+                        link: '/os/macos/tccutil/'
+                    },
+                    {
+                        label: 'tcpdump',
+                        link: '/os/macos/tcpdump/'
+                    },
+                    {
+                        label: 'tee',
+                        link: '/os/macos/tee/'
+                    },
+                    {
+                        label: 'test',
+                        link: '/os/macos/test/'
+                    },
+                    {
+                        label: 'textutil',
+                        link: '/os/macos/textutil/'
+                    },
+                    {
+                        label: 'time',
+                        link: '/os/macos/time/'
+                    },
+                    {
+                        label: 'times',
+                        link: '/os/macos/times/'
+                    },
+                    {
+                        label: 'tmutil',
+                        link: '/os/macos/tmutil/'
+                    },
+                    {
+                        label: 'top',
+                        link: '/os/macos/top/'
+                    },
+                    {
+                        label: 'touch',
+                        link: '/os/macos/touch/'
+                    },
+                    {
+                        label: 'tput',
+                        link: '/os/macos/tput/'
+                    },
+                    {
+                        label: 'tr',
+                        link: '/os/macos/tr/'
+                    },
+                    {
+                        label: 'trap',
+                        link: '/os/macos/trap/'
+                    },
+                    {
+                        label: 'traceroute',
+                        link: '/os/macos/traceroute/'
+                    },
+                    {
+                        label: 'traceroute6',
+                        link: '/os/macos/traceroute6/'
+                    },
+                    {
+                        label: 'trimforce',
+                        link: '/os/macos/trimforce/'
+                    },
+                    {
+                        label: 'tty',
+                        link: '/os/macos/tty/'
+                    },
+                    {
+                        label: 'type',
+                        link: '/os/macos/type/'
+                    },
+                    {
+                        label: 'ulimit',
+                        link: '/os/macos/ulimit/'
+                    },
+                    {
+                        label: 'umask',
+                        link: '/os/macos/umask/'
+                    },
+                    {
+                        label: 'umount',
+                        link: '/os/macos/umount/'
+                    },
+                    {
+                        label: 'unalias',
+                        link: '/os/macos/unalias/'
+                    },
+                    {
+                        label: 'uname',
+                        link: '/os/macos/uname/'
+                    },
+                    {
+                        label: 'unexpand',
+                        link: '/os/macos/unexpand/'
+                    },
+                    {
+                        label: 'uniq',
+                        link: '/os/macos/uniq/'
+                    },
+                    {
+                        label: 'units',
+                        link: '/os/macos/units/'
+                    },
+                    {
+                        label: 'unset',
+                        link: '/os/macos/unset/'
+                    },
+                    {
+                        label: 'until',
+                        link: '/os/macos/until/'
+                    },
+                    {
+                        label: 'uptime',
+                        link: '/os/macos/uptime/'
+                    },
+                    {
+                        label: 'users',
+                        link: '/os/macos/users/'
+                    },
+                    {
+                        label: 'uuencode',
+                        link: '/os/macos/uuencode/'
+                    },
+                    {
+                        label: 'uudecode',
+                        link: '/os/macos/uudecode/'
+                    },
+                    {
+                        label: 'uuidgen',
+                        link: '/os/macos/uuidgen/'
+                    },
+                    {
+                        label: 'uucp',
+                        link: '/os/macos/uucp/'
+                    },
+                    {
+                        label: 'vi',
+                        link: '/os/macos/vi/'
+                    },
+                    {
+                        label: 'w',
+                        link: '/os/macos/w/'
+                    },
+                    {
+                        label: 'wait',
+                        link: '/os/macos/wait/'
+                    },
+                    {
+                        label: 'wait4path',
+                        link: '/os/macos/wait4path/'
+                    },
+                    {
+                        label: 'wall',
+                        link: '/os/macos/wall/'
+                    },
+                    {
+                        label: 'wc',
+                        link: '/os/macos/wc/'
+                    },
+                    {
+                        label: 'whatis',
+                        link: '/os/macos/whatis/'
+                    },
+                    {
+                        label: 'whereis',
+                        link: '/os/macos/whereis/'
+                    },
+                    {
+                        label: 'which',
+                        link: '/os/macos/which/'
+                    },
+                    {
+                        label: 'while',
+                        link: '/os/macos/while/'
+                    },
+                    {
+                        label: 'who',
+                        link: '/os/macos/who/'
+                    },
+                    {
+                        label: 'whoami',
+                        link: '/os/macos/whoami/'
+                    },
+                    {
+                        label: 'write',
+                        link: '/os/macos/write/'
+                    },
+                    {
+                        label: 'xargs',
+                        link: '/os/macos/xargs/'
+                    },
+                    {
+                        label: 'xattr',
+                        link: '/os/macos/xattr/'
+                    },
+                    {
+                        label: 'xcode-select',
+                        link: '/os/macos/xcode-select/'
+                    },
+                    {
+                        label: 'xxd',
+                        link: '/os/macos/xxd/'
+                    },
+                    {
+                        label: 'yes',
+                        link: '/os/macos/yes/'
+                    },
+                    {
+                        label: 'zip',
+                        link: '/os/macos/zip/'
                     }, ], }, ], }, ],
   })]
 });
