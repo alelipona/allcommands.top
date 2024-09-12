@@ -1992,7 +1992,7 @@ export default defineConfig({
                     },
                     {
                         label: 'strace',
-                        link: '/os/linux/sstrace/'
+                        link: '/os/linux/strace/'
                     },
                     {
                         label: 'strings',
@@ -2983,10 +2983,6 @@ export default defineConfig({
                         link: '/os/macos/nohup/'
                     },
                     {
-                        label: 'ntfs.util',
-                        link: '/os/macos/ntfs.util/'
-                    },
-                    {
                         label: 'nvram',
                         link: '/os/macos/nvram/'
                     },
@@ -3533,6 +3529,465 @@ export default defineConfig({
                     {
                         label: 'zip',
                         link: '/os/macos/zip/'
+                    }, ], }, ], },
+    {
+        label: 'Games',
+        items: [
+            {
+                label: 'Minecraft',
+                collapsed: true,
+                items: [
+                    {
+                        label: 'achievement',
+                        link: '/games/minecraft/achievement/'
+                    },
+                    {
+                        label: 'advancement',
+                        link: '/games/minecraft/advancement/'
+                    },
+                    {
+                        label: 'attribute',
+                        link: '/games/minecraft/attribute/'
+                    },
+                    {
+                        label: 'ban',
+                        link: '/games/minecraft/ban/'
+                    },
+                    {
+                        label: 'ban-ip',
+                        link: '/games/minecraft/ban-ip/'
+                    },
+                    {
+                        label: 'banlist',
+                        link: '/games/minecraft/banlist/'
+                    },
+                    {
+                        label: 'blockdata',
+                        link: '/games/minecraft/blockdata/'
+                    },
+                    {
+                        label: 'bossbar',
+                        link: '/games/minecraft/bossbar/'
+                    },
+                    {
+                        label: 'clear',
+                        link: '/games/minecraft/clear/'
+                    },
+                    {
+                        label: 'clone',
+                        link: '/games/minecraft/clone/'
+                    },
+                    {
+                        label: 'data',
+                        link: '/games/minecraft/data/'
+                    },
+                    {
+                        label: 'datapack',
+                        link: '/games/minecraft/datapack/'
+                    },
+                    {
+                        label: 'debug',
+                        link: '/games/minecraft/debug/'
+                    },
+                    {
+                        label: 'defaultgamemode',
+                        link: '/games/minecraft/defaultgamemode/'
+                    },
+                    {
+                        label: 'deop',
+                        link: '/games/minecraft/deop/'
+                    },
+                    {
+                        label: 'difficulty',
+                        link: '/games/minecraft/difficulty/'
+                    },
+                    {
+                        label: 'effect',
+                        link: '/games/minecraft/effect/'
+                    },
+                    {
+                        label: 'enchant',
+                        link: '/games/minecraft/enchant/'
+                    },
+                    {
+                        label: 'execute',
+                        link: '/games/minecraft/execute/'
+                    },
+                    {
+                        label: 'experience',
+                        link: '/games/minecraft/experience/'
+                    },
+                    {
+                        label: 'fill',
+                        link: '/games/minecraft/fill/'
+                    },
+                    {
+                        label: 'forceload',
+                        link: '/games/minecraft/forceload/'
+                    },
+                    {
+                        label: 'function',
+                        link: '/games/minecraft/function/'
+                    },
+                    {
+                        label: 'gamemode',
+                        link: '/games/minecraft/gamemode/'
+                    },
+                    {
+                        label: 'gamerule',
+                        link: '/games/minecraft/gamerule/'
+                    },
+                    {
+                        label: 'give',
+                        link: '/games/minecraft/give/'
+                    },
+                    {
+                        label: 'help',
+                        link: '/games/minecraft/help/'
+                    },
+                    {
+                        label: 'item',
+                        link: '/games/minecraft/item/'
+                    },
+                    {
+                        label: 'jfr',
+                        link: '/games/minecraft/jfr/'
+                    },
+                    {
+                        label: 'kick',
+                        link: '/games/minecraft/kick/'
+                    },
+                    {
+                        label: 'kill',
+                        link: '/games/minecraft/kill/'
+                    },
+                    {
+                        label: 'list',
+                        link: '/games/minecraft/list/'
+                    },
+                    {
+                        label: 'locate',
+                        link: '/games/minecraft/locate/'
+                    },
+                    {
+                        label: 'locatebiome',
+                        link: '/games/minecraft/locatebiome/'
+                    },
+                    {
+                        label: 'loot',
+                        link: '/games/minecraft/loot/'
+                    },
+                    {
+                        label: 'me',
+                        link: '/games/minecraft/me/'
+                    },
+                    {
+                        label: 'msg',
+                        link: '/games/minecraft/msg/'
+                    },
+                    {
+                        label: 'op',
+                        link: '/games/minecraft/op/'
+                    },
+                    {
+                        label: 'pardon',
+                        link: '/games/minecraft/pardon/'
+                    },
+                    {
+                        label: 'pardon-ip',
+                        link: '/games/minecraft/pardon-ip/'
+                    },
+                    {
+                        label: 'particle',
+                        link: '/games/minecraft/particle/'
+                    },
+                    {
+                        label: 'perf',
+                        link: '/games/minecraft/perf/'
+                    },
+                    {
+                        label: 'playsound',
+                        link: '/games/minecraft/playsound/'
+                    },
+                    {
+                        label: 'publish',
+                        link: '/games/minecraft/publish/'
+                    },
+                    {
+                        label: 'recipe',
+                        link: '/games/minecraft/recipe/'
+                    },
+                    {
+                        label: 'reload',
+                        link: '/games/minecraft/reload/'
+                    },
+                    {
+                        label: 'replaceitem',
+                        link: '/games/minecraft/replaceitem/'
+                    },
+                    {
+                        label: 'save',
+                        link: '/games/minecraft/save/'
+                    },
+                    {
+                        label: 'save-all',
+                        link: '/games/minecraft/save-all/'
+                    },
+                    {
+                        label: 'save-off',
+                        link: '/games/minecraft/save-off/'
+                    },
+                    {
+                        label: 'save-on',
+                        link: '/games/minecraft/save-on/'
+                    },
+                    {
+                        label: 'say',
+                        link: '/games/minecraft/say/'
+                    },
+                    {
+                        label: 'schedule',
+                        link: '/games/minecraft/schedule/'
+                    },
+                    {
+                        label: 'scoreboard',
+                        link: '/games/minecraft/scoreboard/'
+                    },
+                    {
+                        label: 'seed',
+                        link: '/games/minecraft/seed/'
+                    },
+                    {
+                        label: 'setblock',
+                        link: '/games/minecraft/setblock/'
+                    },
+                    {
+                        label: 'setidletimeout',
+                        link: '/games/minecraft/setidletimeout/'
+                    },
+                    {
+                        label: 'setworldspawn',
+                        link: '/games/minecraft/setworldspawn/'
+                    },
+                    {
+                        label: 'spawnpoint',
+                        link: '/games/minecraft/spawnpoint/'
+                    },
+                    {
+                        label: 'spectate',
+                        link: '/games/minecraft/spectate/'
+                    },
+                    {
+                        label: 'spreadplayers',
+                        link: '/games/minecraft/spreadplayers/'
+                    },
+                    {
+                        label: 'stats',
+                        link: '/games/minecraft/stats/'
+                    },
+                    {
+                        label: 'stop',
+                        link: '/games/minecraft/stop/'
+                    },
+                    {
+                        label: 'structure',
+                        link: '/games/minecraft/structure/'
+                    },
+                    {
+                        label: 'summon',
+                        link: '/games/minecraft/summon/'
+                    },
+                    {
+                        label: 'tag',
+                        link: '/games/minecraft/tag/'
+                    },
+                    {
+                        label: 'team',
+                        link: '/games/minecraft/team/'
+                    },
+                    {
+                        label: 'teammsg',
+                        link: '/games/minecraft/teammsg/'
+                    },
+                    {
+                        label: 'teleport',
+                        link: '/games/minecraft/teleport/'
+                    },
+                    {
+                        label: 'tell',
+                        link: '/games/minecraft/tell/'
+                    },
+                    {
+                        label: 'tellraw',
+                        link: '/games/minecraft/tellraw/'
+                    },
+                    {
+                        label: 'testfor',
+                        link: '/games/minecraft/testfor/'
+                    },
+                    {
+                        label: 'time',
+                        link: '/games/minecraft/time/'
+                    },
+                    {
+                        label: 'title',
+                        link: '/games/minecraft/title/'
+                    },
+                    {
+                        label: 'tp',
+                        link: '/games/minecraft/tp/'
+                    },
+                    {
+                        label: 'trigger',
+                        link: '/games/minecraft/trigger/'
+                    },
+                    {
+                        label: 'w',
+                        link: '/games/minecraft/w/'
+                    },
+                    {
+                        label: 'weather',
+                        link: '/games/minecraft/weather/'
+                    },
+                    {
+                        label: 'whitelist',
+                        link: '/games/minecraft/whitelist/'
+                    },
+                    {
+                        label: 'worldborder',
+                        link: '/games/minecraft/worldborder/'
+                    },
+                    {
+                        label: 'xp',
+                        link: '/games/minecraft/xp/'
+                    }, ], },
+            {
+                label: 'Roblox',
+                collapsed: true,
+                items: [
+                    {
+                        label: 'admin',
+                        link: '/games/roblox/admin/'
+                    },
+                    {
+                        label: 'bighead',
+                        link: '/games/roblox/bighead/'
+                    },
+                    {
+                        label: 'control',
+                        link: '/games/roblox/control/'
+                    },
+                    {
+                        label: 'explode',
+                        link: '/games/roblox/explode/'
+                    },
+                    {
+                        label: 'ff',
+                        link: '/games/roblox/ff/'
+                    },
+                    {
+                        label: 'fire',
+                        link: '/games/roblox/fire/'
+                    },
+                    {
+                        label: 'freeze',
+                        link: '/games/roblox/freeze/'
+                    },
+                    {
+                        label: 'givetools',
+                        link: '/games/roblox/givetools/'
+                    },
+                    {
+                        label: 'god mode',
+                        link: '/games/roblox/god-mode/'
+                    },
+                    {
+                        label: 'invisible',
+                        link: '/games/roblox/invisible/'
+                    },
+                    {
+                        label: 'jail',
+                        link: '/games/roblox/jail/'
+                    },
+                    {
+                        label: 'jump',
+                        link: '/games/roblox/jump/'
+                    },
+                    {
+                        label: 'kick',
+                        link: '/games/roblox/kick/'
+                    },
+                    {
+                        label: 'kill',
+                        link: '/games/roblox/kill/'
+                    },
+                    {
+                        label: 'loopkill',
+                        link: '/games/roblox/loopkill/'
+                    },
+                    {
+                        label: 'merge',
+                        link: '/games/roblox/merge/'
+                    },
+                    {
+                        label: 'minihead',
+                        link: '/games/roblox/minihead/'
+                    },
+                    {
+                        label: 'normalhead',
+                        link: '/games/roblox/normalhead/'
+                    },
+                    {
+                        label: 'removetools',
+                        link: '/games/roblox/removetools/'
+                    },
+                    {
+                        label: 'sit',
+                        link: '/games/roblox/sit/'
+                    },
+                    {
+                        label: 'smoke',
+                        link: '/games/roblox/smoke/'
+                    },
+                    {
+                        label: 'sparkles',
+                        link: '/games/roblox/sparkles/'
+                    },
+                    {
+                        label: 'trip',
+                        link: '/games/roblox/trip/'
+                    },
+                    {
+                        label: 'unadmin',
+                        link: '/games/roblox/unadmin/'
+                    },
+                    {
+                        label: 'unfire',
+                        link: '/games/roblox/unfire/'
+                    },
+                    {
+                        label: 'ungod mode',
+                        link: '/games/roblox/ungodmode/'
+                    },
+                    {
+                        label: 'unjail',
+                        link: '/games/roblox/unjail/'
+                    },
+                    {
+                        label: 'unsmoke',
+                        link: '/games/roblox/unsmoke/'
+                    },
+                    {
+                        label: 'unsparkles',
+                        link: '/games/roblox/unsparkles/'
+                    },
+                    {
+                        label: 'visible',
+                        link: '/games/roblox/visible/'
+                    },
+                    {
+                        label: 'zombify',
+                        link: '/games/roblox/zombify/'
                     }, ], }, ], }, ],
   })]
 });
