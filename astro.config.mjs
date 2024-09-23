@@ -3926,10 +3926,6 @@ export default defineConfig({
                         link: '/games/roblox/loopkill/'
                     },
                     {
-                        label: 'merge',
-                        link: '/games/roblox/merge/'
-                    },
-                    {
                         label: 'minihead',
                         link: '/games/roblox/minihead/'
                     },
